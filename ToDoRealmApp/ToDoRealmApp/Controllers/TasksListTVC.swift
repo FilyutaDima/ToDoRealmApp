@@ -1,5 +1,5 @@
 //
-//  CategoriesTVC.swift
+//  TasksTVC.swift
 //  ToDoRealmApp
 //
 //  Created by Dmitry on 13.03.22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CategoriesTVC: UITableViewController {
+class TasksListTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

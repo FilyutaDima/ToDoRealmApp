@@ -16,8 +16,9 @@
 		0A72CE7E27DE599B00DC264E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0A72CE7D27DE599B00DC264E /* RealmSwift */; };
 		0A72CE8527DE5E0600DC264E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72CE8427DE5E0600DC264E /* Task.swift */; };
 		0A72CE8727DE5E4800DC264E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72CE8627DE5E4800DC264E /* StorageManager.swift */; };
-		0A72CE8927DE5EB800DC264E /* CategoriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72CE8827DE5EB800DC264E /* CategoriesTVC.swift */; };
-		0A72CE8B27DE5ECF00DC264E /* TasksTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72CE8A27DE5ECF00DC264E /* TasksTVC.swift */; };
+		0A72CE8927DE5EB800DC264E /* CategoriesListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72CE8827DE5EB800DC264E /* CategoriesListTVC.swift */; };
+		0A72CE8B27DE5ECF00DC264E /* TasksListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72CE8A27DE5ECF00DC264E /* TasksListTVC.swift */; };
+		0A72CE8D27DE619800DC264E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72CE8C27DE619800DC264E /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		0A72CE7427DE4D1900DC264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A72CE8427DE5E0600DC264E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		0A72CE8627DE5E4800DC264E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		0A72CE8827DE5EB800DC264E /* CategoriesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTVC.swift; sourceTree = "<group>"; };
-		0A72CE8A27DE5ECF00DC264E /* TasksTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTVC.swift; sourceTree = "<group>"; };
+		0A72CE8827DE5EB800DC264E /* CategoriesListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListTVC.swift; sourceTree = "<group>"; };
+		0A72CE8A27DE5ECF00DC264E /* TasksListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListTVC.swift; sourceTree = "<group>"; };
+		0A72CE8C27DE619800DC264E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,8 @@
 		0A72CE7F27DE5D8200DC264E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0A72CE8827DE5EB800DC264E /* CategoriesTVC.swift */,
-				0A72CE8A27DE5ECF00DC264E /* TasksTVC.swift */,
+				0A72CE8827DE5EB800DC264E /* CategoriesListTVC.swift */,
+				0A72CE8A27DE5ECF00DC264E /* TasksListTVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				0A72CE8427DE5E0600DC264E /* Task.swift */,
+				0A72CE8C27DE619800DC264E /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,9 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A72CE8D27DE619800DC264E /* Category.swift in Sources */,
 				0A72CE6727DE4D1600DC264E /* AppDelegate.swift in Sources */,
-				0A72CE8927DE5EB800DC264E /* CategoriesTVC.swift in Sources */,
-				0A72CE8B27DE5ECF00DC264E /* TasksTVC.swift in Sources */,
+				0A72CE8927DE5EB800DC264E /* CategoriesListTVC.swift in Sources */,
+				0A72CE8B27DE5ECF00DC264E /* TasksListTVC.swift in Sources */,
 				0A72CE8527DE5E0600DC264E /* Task.swift in Sources */,
 				0A72CE6927DE4D1600DC264E /* SceneDelegate.swift in Sources */,
 				0A72CE8727DE5E4800DC264E /* StorageManager.swift in Sources */,
