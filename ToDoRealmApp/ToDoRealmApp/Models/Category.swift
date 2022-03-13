@@ -1,5 +1,5 @@
 //
-//  Task.swift
+//  TasksList.swift
 //  ToDoRealmApp
 //
 //  Created by Dmitry on 13.03.22.
@@ -8,10 +8,8 @@
 import Foundation
 import RealmSwift
 
-class Task: Object {
+class Category: Object {
     @objc dynamic var name = ""
-    @objc dynamic var note = ""
     @objc dynamic var date = Date()
-    @objc dynamic var isCompele = false
+    let tasksList = List<Task>()
 }
-
